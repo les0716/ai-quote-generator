@@ -2,3 +2,6 @@ body {
   text-align: center;
   background-color: beige;
 }
+a {
+  text-decoration: none;
+}
