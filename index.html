@@ -8,21 +8,27 @@
     <title>The Quote Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Generate your quote</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          placeholder="Enter Topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-        <div>Either you run the day or the day runs you</div>
-      </form>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Generate Your Quote!</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            placeholder="Enter Topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="quote-container">
+          The greatest glory in living lies not in never falling, but in rising
+          every time we fall. -Nelson Mandelau
+        </div>
+      </main>
+    </div>
     <footer>
       This AI project was coded by
       <a href="https://github.com/les0716" target="_blank">
@@ -37,6 +43,8 @@
         >Netlify</a
       >
     </footer>
+    </body>
+  </div>
     <script src="src/index.js"></script>
   </body>
 </html>
