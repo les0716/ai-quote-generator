@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>The Quote Generator</title>
   </head>
@@ -13,7 +14,7 @@
         <h1>Generate Your Quote</h1>
       </header>
       <main>
-        <form class="quote-content">
+        <form id="quote-content">
           <input
             placeholder="Enter Topic"
             autofocus
@@ -23,9 +24,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="quote-container">
-          The greatest glory in living lies not in never falling, but in rising
-          every time we fall. -Nelson Mandelau
+        <div class="quote-container" id="quote-container">
         </div>
       </main>
     </div>
